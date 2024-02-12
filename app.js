@@ -65,7 +65,7 @@ class Profile {
         this.name = name;
         this.email = email;
         this.car = car;
-        this.score = 0;
+        this.score = 10;
     }
 
     login(){
@@ -267,7 +267,7 @@ function Admin2 (...args){
     //the args parameter creates an array of the values(arguements passed)
     //console.log(args);
 
-    //to make it inherit the properties we use attach apply to the parent class and pass 'this' and 'args'
+    //to make it inherit the properties we attach apply to the parent class and pass 'this' and 'args'
     // 'this' carries the context of the orginal class - email and name - then args is what you'll pass
     //as your final arguements
 
